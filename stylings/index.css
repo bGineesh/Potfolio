@@ -1,0 +1,68 @@
+html {
+    color-scheme: light dark;
+}
+* {
+    margin: 0;
+    border: 0;
+
+}
+body {
+    background-color: darkslategray;
+}
+#topHeading {
+    position: absolute;
+    top: 1px;
+    right: 600px;
+}
+div span.heading {
+   
+    /*text-align: center;*/
+    text-decoration:underline;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav li{
+    float: left;
+    list-style: none;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid red;*/
+}
+nav a {
+    display: block;
+    width: 100px;
+    padding: 10px 5px;
+    color: whitesmoke;
+    /*border: 3px solid burlywood;*/
+}
+
+.heading1 span{
+    width: 100px;
+    color: black;
+    background-color: aliceblue;
+    /*border: 2px solid skyblue;*/
+}
+
+div.foot_start {
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 600px;
+    /*border: 2px solid red;*/
+    
+}
+span.foot_name {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration:underline;
+}
+span.foot_mail a {
+    color: rgb(178, 187, 52);
+    font-size: 19px;
+}
+span.foot_stop {
+    font-weight: 400;
+    font-size:22px;
+}
+
