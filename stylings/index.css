@@ -4,23 +4,23 @@ html {
 * {
     margin: 0;
     border: 0;
-
+    box-sizing: border-box;
 }
 body {
     background-color: darkslategray;
 }
 #topHeading {
     position: absolute;
-    top: 1px;
+    top: 10px;
     right: 600px;
 }
 #topHeading1 {
     position: absolute;
     top: 30px;
-    right: 600px;
+    right: 45%;
 }
 
-div span.heading {
+div .heading {
    
     /*text-align: center;*/
     text-decoration:underline;
@@ -31,16 +31,24 @@ div span.heading {
 nav li{
     float: left;
     list-style: none;
+
     /*flex-direction: row;
-    flex-wrap: wrap;
-    border: 2px solid red;*/
+    flex-wrap: wrap;*/
+    border: 2px solid red;
 }
 nav a {
     display: block;
     width: 100px;
+    margin-top: 8px;
     padding: 10px 5px;
     color: whitesmoke;
-    /*border: 3px solid burlywood;*/
+    text-decoration: none;
+    border: 3px solid burlywood;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: dimgray;
 }
 
 .heading1 span{
@@ -52,9 +60,12 @@ nav a {
 
 div.foot_start {
     text-align: center;
-    position: fixed;
-    bottom: 10px;
-    left: 600px;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+
+    background-color: black;
     /*border: 2px solid red;*/
     
 }
@@ -64,11 +75,13 @@ span.foot_name {
     text-decoration:underline;
 }
 span.foot_mail a {
-    color: rgb(178, 187, 52);
+    color: rgb(254, 254, 251);
     font-size: 19px;
+    text-decoration: none;
 }
 span.foot_stop {
     font-weight: 400;
     font-size:22px;
 }
+
 
